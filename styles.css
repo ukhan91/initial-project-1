@@ -1,0 +1,130 @@
+i/* Custom styles for portfolio website */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    color: #333;
+}
+
+h1, h2, h4, h5 {
+    font-weight: 600;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.section-multicolor-1 {
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    box-shadow: 0 8px 16px rgba(255, 154, 158, 0.3);
+    color: #333;
+}
+
+.section-multicolor-2 {
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    box-shadow: 0 8px 16px rgba(246, 211, 101, 0.3);
+    color: #333;
+}
+
+.section-multicolor-3 {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    box-shadow: 0 8px 16px rgba(79, 172, 254, 0.3);
+    color: #333;
+}
+
+.section-multicolor-4 {
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    box-shadow: 0 8px 16px rgba(252, 182, 159, 0.3);
+    color: #333;
+}
+
+section {
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    box-shadow: 0 8px 16px rgba(101, 71, 255, 0.1);
+    background-color: white;
+}
+
+.card {
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(101, 71, 255, 0.3);
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.7) !important;
+    border-radius: 8px;
+}
+
+footer {
+    background: linear-gradient(90deg, #1f1c2c, #928dab);
+    font-size: 0.9rem;
+}
+
+footer a:hover {
+    color: #ddd !important;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+img {
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 1rem;
+    }
+    .hero-section {
+        min-height: 50vh;
+    }
+    .section-multicolor-1, .section-multicolor-2, .section-multicolor-3, .section-multicolor-4 {
+        padding: 1.5rem;
+    }
+    .card {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+    .hero-section p {
+        font-size: 1rem;
+    }
+    .section-multicolor-1, .section-multicolor-2, .section-multicolor-3, .section-multicolor-4 {
+        padding: 1rem;
+    }
+    section {
+        padding: 0.5rem;
+    }
+    .card-title {
+        font-size: 1.1rem;
+    }
+    .card-text {
+        font-size: 0.9rem;
+    }
+    footer p {
+        font-size: 0.8rem;
+    }
+}
