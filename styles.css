@@ -34,6 +34,36 @@ h1, h2, h4, h5 {
     color: #333;
 }
 
+.section-dark-freelance {
+    background: #121212;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+    color: #eee;
+}
+
+.section-dark-freelance .carousel-caption {
+    background: rgba(20, 20, 20, 0.85) !important;
+    border-radius: 8px;
+}
+
+.section-dark-freelance .carousel-caption h5,
+.section-dark-freelance .carousel-caption p {
+    color: #eee;
+}
+
+.section-dark-freelance .btn-light {
+    background-color: #333;
+    color: #eee;
+    border: none;
+}
+
+.section-dark-freelance .btn-light:hover {
+    background-color: #555;
+    color: #fff;
+}
+
 .section-multicolor-3 {
     background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
     border-radius: 12px;
@@ -127,4 +157,26 @@ img {
     footer p {
         font-size: 0.8rem;
     }
+}
+
+#freelanceCarousel.carousel .carousel-control-prev,
+#freelanceCarousel.carousel .carousel-control-next {
+    width: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+#freelanceCarousel.carousel .carousel-control-prev:hover,
+#freelanceCarousel.carousel .carousel-control-next:hover {
+    opacity: 1;
+}
+
+#freelanceCarousel.carousel .carousel-control-prev {
+    left: 10px;
+}
+
+#freelanceCarousel.carousel .carousel-control-next {
+    right: 10px;
 }
